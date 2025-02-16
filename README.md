@@ -1,2 +1,135 @@
-# Spider-Notes
-python3爬虫网络爬虫实战
+# python3爬虫网络爬虫学习笔记
+- 第1章 爬虫基础
+  - 1.1 HTTP基本原理.md
+  - 1.3 爬虫的基本原理.md
+  - 1.4 Session和Cookie.md
+  - 1.5 代理的基本原理.md
+  - 1.6 多线程与多进程.md
+- 第2章 基本库的使用
+  - 2.1 urllib的使用.md
+  - 2.2 requests的使用.md
+  - 2.3 正则表达式.md
+  - 2.4 httpx的使用.md
+  - 2.5 基础爬虫案例实战.md
+- 第3章 网页数据的解析
+  - 3.1 XPath的使用.md
+  - 3.2 Beautiful Soup的使用.md
+  - 3.3 pyquery的使用.md
+  - 3.4 parse的使用.md
+- 第4章 数据的存储
+  - 4.1 TXT文本文件存储.md
+  - 4.2 JSON文件存储.md
+  - 4.3 CSV文件存储.md
+  - 4.4 MySQL存储.md
+  - 4.5 MongoDB文档存储.md
+  - 4.6 Redis缓存存储.md
+  - 4.7 Elasticsearch搜索.md
+  - 4.8 RabbitMQ的使用.md
+- 第5章 Ajaxy数据爬取
+  - 5.1 什么是Ajaxy.md
+  - 5.2 Ajaxy分析方法.md
+  - 5.3 Ajaxy分析与爬取.md
+- 第6章 异步爬虫
+  - 6.1 协程的基本原理.md
+  - 6.2 aiohttp的使用.md
+  - 6.3 aiohttp异步爬取.md
+- 第7章 Selenium的使用
+  - 7.1 Selenium的使用.md
+  - 7.2 Splash的使用.md
+  - 7.3 Pypetteer的使用.md
+  - 7.4 Playwright的使用.md
+  - 7.5 Selenium爬取实战.md
+  - 7.6 Pypetteer爬取实战.md
+  - 7.7 CSS位置偏移反爬.md
+  - 7.8 字体反爬案例分析.md
+- 第8章 验证码的识别
+  - 8.1 使用OCR技术识别验证码.md
+  - 8.2 使用OpenCV识别验证码.md
+  - 8.3 使用深度学习识别验证码.md
+  - 8.4 使用深度学习识别验证码（续）.md
+  - 8.5 使用打码平台识别验证码.md
+  - 8.6 手机验证码的自动识别.md
+- 第9章 代理的使用
+  - 9.1 代理的设置.md
+  - 9.2 代理池的维护.md
+  - 9.3 付费代理的使用.md
+  - 9.4 ADSL拨号代理.md
+  - 9.5 代理反爬案例爬取.md
+- 第10章 模拟登录
+  - 10.1 模拟登录的基本原理.md
+  - 10.2 基于Session和Cookie的模拟登录.md
+  - 10.3 基于JWT的模拟登录.md
+  - 10.4 大规模账号池的使用.md
+- 第11章 JavaScript逆向
+  - 11.1 网站加密和混淆技术.md
+  - 11.2 浏览器调试工具的使用.md
+  - 11.3 JavaScript Hook技术.md
+  - 11.4 无限debugger技术.md
+  - 11.5 使用Python模拟执行JavaScript.md
+  - 11.6 使用Node.js模拟执行JavaScript.md
+  - 11.7 浏览器环境下JavaScript的执行.md
+  - 11.8 AST技术简介.md
+  - 11.9 使用AST技术还原JavaScript.md
+  - 11.10 特殊混淆案例分析.md
+  - 11.11 WebAssembly逆向.md
+  - 11.12 JavaScript逆向实战案例.md
+  - 11.13 JavaScript逆向高级技巧.md
+- 第12章 APP数据的爬取
+  - 12.1 Charles抓包工具的使用.md
+  - 12.2 mitmproxy抓包工具的使用.md
+  - 12.3 mitmdump实战案例.md
+  - 12.4 Appium的使用.md
+  - 12.5 基于Appium的APP爬取.md
+  - 12.6 Airetest的使用.md
+  - 12.7 基于Airetest的APP爬取.md
+  - 12.8 手机群控爬取.md
+  - 12.9 云手机的使用.md
+- 第13章 Android逆向
+  - 13.2 JEB的使用.md
+  - 13.3 Xposed框架的使用.md
+  - 13.4 基于Xposed的Hook技术.md
+  - 13.5 Frida的使用.md
+  - 13.6 SSL Pinning问题的解决.md
+  - 13.7 Android脱壳技术.md
+  - 13.8 利用IDA Pro静态分析APK.md
+  - 13.9 基于Frida-RPC的动态分析.md
+  - 13.10 基于AndServer的Android调试.md
+  - 13.11 基于unidbg的APK加载.md
+- 第14章 页面智能解析
+  - 14.1 页面智能解析技术.md
+  - 14.2 详情页智能解析.md
+  - 14.3 详情页智能解析案例.md
+  - 14.4 列表页智能解析.md
+  - 14.5 列表页智能解析案例.md
+  - 14.6 如何智能分辨页面类型.md
+- 第15章 Scrapy框架的使用
+  - 15.1 Scrapy框架介绍.md
+  - 15.2 Scrapy入门.md
+  - 15.3 Selector的使用.md
+  - 15.4 Spider的使用.md
+  - 15.5 Downloader Middleware的使用.md
+  - 15.6 Spider Middleware的使用.md
+  - 15.7 Item Pipeline的使用.md
+  - 15.8 Extension的使用.md
+  - 15.9 Scrapy对接Selenium.md
+  - 15.10 Scrapy对接Splash.md
+  - 15.11 Scrapy对接Pypetteer.md
+  - 15.12 Scrapy规则编写.md
+  - 15.13 Scrapy实战案例.md
+- 第16章 分布式爬虫
+  - 16.1 分布式爬虫理念.md
+  - 16.2 Scrapy-Redis原理和使用.md
+  - 16.3 基于Scrapy-Redis的分布式爬虫.md
+  - 16.4 基于Bloom Filter的去重技术.md
+  - 16.5 基于RabbitMQ的分布式爬虫.md
+- 第17章 爬虫的管理和部署
+  - 17.1 Scrapy和Scrapyd.md
+  - 17.2 Scrapyd-Client的使用.md
+  - 17.3 Gerapy爬虫管理.md
+  - 17.4 将Scrapy项目部署到Scrapyd.md
+  - 17.5 Docker Compose的使用.md
+  - 17.6 Kubernetes的使用.md
+  - 17.7 用Kubernetes部署爬虫.md
+  - 17.8 Scrapy分布式爬虫的监控.md
+  - 17.9 基于Prometheus的监控.md
+- 附录 爬虫与法律.md
